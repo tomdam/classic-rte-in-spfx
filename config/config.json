@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "classic-rte-in-spfx-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/classicRteInSpfxWebpart/ClassicRteInSpfxWebpartWebPart.js",
+          "manifest": "./src/webparts/classicRteInSpfxWebpart/ClassicRteInSpfxWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js",
+      "globalName": "jQuery"
+}
+  },
+  "localizedResources": {
+    "ClassicRteInSpfxWebpartWebPartStrings": "lib/webparts/classicRteInSpfxWebpart/loc/{locale}.js"
+  }
+}

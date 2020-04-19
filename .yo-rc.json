@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.7.1",
+    "libraryName": "classic-rte-in-spfx",
+    "libraryId": "ccd261ba-95ad-4846-a2e6-872ab3a421d8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "isCreatingSolution": true,
+    "componentType": "webpart"
+  }
+}
