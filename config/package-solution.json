@@ -3,7 +3,7 @@
   "solution": {
     "name": "classic-rte-in-spfx-client-side-solution",
     "id": "ccd261ba-95ad-4846-a2e6-872ab3a421d8",
-    "version": "1.0.0.5",
+    "version": "1.0.0.6",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true
   },
